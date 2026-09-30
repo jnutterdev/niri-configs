@@ -1,0 +1,11 @@
+#!/bin/sh
+# Toggle the touchpad by adding/removing an untracked override that
+# config.kdl optionally includes. niri live-reloads the change.
+f="$(dirname "$(readlink -f "$0")")/../cfg/touchpad-state.kdl"
+if [ -e "$f" ]; then
+    rm "$f"
+    notify-send -t 1500 "Touchpad on"
+else
+    printf 'input {\n    touchpad {\n        off\n    }\n}\n' > "$f"
+    notify-send -t 1500 "Touchpad off"
+fi

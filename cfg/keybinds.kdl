@@ -26,6 +26,9 @@ binds {
     // Please choose your own file manager.
     Mod+E                               hotkey-overlay-title="File Manager: Nautilus" { spawn "nautilus"; }
 
+    // ─── Input ───
+    Mod+Shift+T                         hotkey-overlay-title="Toggle Touchpad" { spawn-sh "~/.config/niri/bin/toggle-touchpad"; }
+
     // ─── Media Controls ───
     XF86AudioRaiseVolume                allow-when-locked=true { spawn-sh "noctalia msg volume-up"; }
     XF86AudioLowerVolume                allow-when-locked=true { spawn-sh "noctalia msg volume-down"; }

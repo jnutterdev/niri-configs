@@ -22,6 +22,11 @@ git clone git@github.com:jnutterdev/niri-configs.git ~/github.com/jnutterdev/nir
 | `cfg/display.kdl` | Monitor outputs (per-machine — check `niri msg outputs`) |
 | `cfg/layout.kdl`, `cfg/animation.kdl`, `cfg/rules.kdl`, `cfg/misc.kdl` | Appearance and behavior |
 | `cfg/autostart.kdl` | Startup apps (noctalia-shell) |
+| `bin/toggle-touchpad` | Touchpad on/off (`Mod+Shift+T`) |
+
+## Touchpad toggle
+
+`Mod+Shift+T` runs `bin/toggle-touchpad`, which creates or removes `cfg/touchpad-state.kdl` (an optional include that sets `touchpad { off }`). That file is gitignored, so turning the touchpad off on one machine never gets committed or synced to another.
 
 ## Mouse buttons (Logitech MX Anywhere 2S / MX series)
 
