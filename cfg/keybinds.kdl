@@ -94,8 +94,6 @@ binds {
     MouseForward                        { focus-workspace-up; }
     MouseBack                           { focus-workspace-down; }
     MouseMiddle                         { toggle-overview; }
-    WheelScrollLeft                     cooldown-ms=150 { focus-column-left; }
-    WheelScrollRight                    cooldown-ms=150 { focus-column-right; }
     Mod+WheelScrollDown                 cooldown-ms=150 { focus-workspace-down; }
     Mod+WheelScrollUp                   cooldown-ms=150 { focus-workspace-up; }
     Mod+CTRL+WheelScrollDown            cooldown-ms=150 { move-column-to-workspace-down; }
