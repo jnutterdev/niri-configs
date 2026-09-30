@@ -35,6 +35,5 @@ git clone git@github.com:jnutterdev/niri-configs.git ~/github.com/jnutterdev/nir
 | Top side button (`MouseForward`) | Workspace up |
 | Bottom side button (`MouseBack`) | Workspace down |
 | Button below the wheel (`MouseMiddle`) | Toggle overview |
-| Wheel tilt left / right (`WheelScrollLeft` / `WheelScrollRight`) | Focus column left / right |
 
-These override browser back/forward, middle-click paste, and horizontal scrolling.
+These override browser back/forward and middle-click paste.
