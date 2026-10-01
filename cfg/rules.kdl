@@ -1,3 +1,8 @@
+    // Make every window open floating (old-style overlapping windows instead of tiling).
+    window-rule {
+        open-floating true
+    }
+
     window-rule {
         geometry-corner-radius 20 // Set every window radius to 20
         clip-to-geometry true
