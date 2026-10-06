@@ -13,6 +13,7 @@ input {
 
     touchpad {
         dwt // Disable while typing
+        click-method "clickfinger" // 1 finger = left, 2 = right, 3 = middle (macOS-style)
         // tap // Enable tap-to-click
         // natural-scroll // Enable natural (macOS-style) scrolling
     }
