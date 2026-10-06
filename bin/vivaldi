@@ -1,0 +1,7 @@
+#!/bin/sh
+# Launch Vivaldi from wherever this machine has it: the native package
+# (/opt/vivaldi, CachyOS laptop) or the snap (/snap/bin). Args pass through.
+for v in /opt/vivaldi/vivaldi /snap/bin/vivaldi.vivaldi-stable; do
+    [ -x "$v" ] && exec "$v" "$@"
+done
+exec vivaldi-stable "$@"

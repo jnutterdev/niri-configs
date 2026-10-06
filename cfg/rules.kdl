@@ -53,7 +53,8 @@
     workspace "chat"
 
     window-rule {
-        match app-id="crx_hpfldicfbfomlpcikngkocigghgafkph"
+        // crx_<id> on native Vivaldi, vivaldi-<id>-Default on the snap.
+        match app-id=r#"^(crx_|vivaldi-)hpfldicfbfomlpcikngkocigghgafkph"#
         open-on-workspace "chat"
         open-focused false
     }

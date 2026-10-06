@@ -10,7 +10,7 @@ binds {
 
     // ─── Applications ───
     Mod+Return                          hotkey-overlay-title="Open Terminal: kitty" { spawn "kitty"; }
-    Mod+B                               hotkey-overlay-title="Open Browser: vivaldi" { spawn "vivaldi-stable"; }
+    Mod+B                               hotkey-overlay-title="Open Browser: vivaldi" { spawn-sh "~/.config/niri/bin/vivaldi"; }
 
     // --- Noctalia ---
     Mod+Shift+Return                    hotkey-overlay-title="Open Wallpaper Selector: noctalia wallpaper toggle" { spawn-sh "noctalia msg panel-toggle wallpaper"; }
@@ -28,10 +28,10 @@ binds {
     Mod+E                               hotkey-overlay-title="File Manager: Nautilus" { spawn "nautilus"; }
 
     // ─── Web Apps (Vivaldi PWAs) ───
-    Mod+Alt+K                           hotkey-overlay-title="Open Google Keep" { spawn "/opt/vivaldi/vivaldi" "--profile-directory=Default" "--app-id=eilembjdkfgodjkcjnpgpaenohkicgjd"; }
-    Mod+Alt+M                           hotkey-overlay-title="Open Messages" { spawn "/opt/vivaldi/vivaldi" "--profile-directory=Default" "--app-id=hpfldicfbfomlpcikngkocigghgafkph"; }
-    Mod+Alt+C                           hotkey-overlay-title="Open Google Calendar" { spawn "/opt/vivaldi/vivaldi" "--profile-directory=Default" "--app-id=kjbdgfilnfhdoflbpgamdcdgpehopbep"; }
-    Mod+Alt+Y                           hotkey-overlay-title="Open YouTube Music" { spawn "/opt/vivaldi/vivaldi" "--profile-directory=Default" "--app-id=cinhimbnkkaeohfgghhklpknlkffjgod"; }
+    Mod+Alt+K                           hotkey-overlay-title="Open Google Keep" { spawn-sh "~/.config/niri/bin/vivaldi --profile-directory=Default --app-id=eilembjdkfgodjkcjnpgpaenohkicgjd"; }
+    Mod+Alt+M                           hotkey-overlay-title="Open Messages" { spawn-sh "~/.config/niri/bin/vivaldi --profile-directory=Default --app-id=hpfldicfbfomlpcikngkocigghgafkph"; }
+    Mod+Alt+C                           hotkey-overlay-title="Open Google Calendar" { spawn-sh "~/.config/niri/bin/vivaldi --profile-directory=Default --app-id=kjbdgfilnfhdoflbpgamdcdgpehopbep"; }
+    Mod+Alt+Y                           hotkey-overlay-title="Open YouTube Music" { spawn-sh "~/.config/niri/bin/vivaldi --profile-directory=Default --app-id=cinhimbnkkaeohfgghhklpknlkffjgod"; }
 
     // ─── Input ───
     Mod+Shift+T                         hotkey-overlay-title="Toggle Touchpad" { spawn-sh "~/.config/niri/bin/toggle-touchpad"; }
