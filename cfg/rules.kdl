@@ -48,3 +48,12 @@
           // blur false
         }
     }
+
+    // Messages (Vivaldi PWA) lives on its own workspace, started at login.
+    workspace "chat"
+
+    window-rule {
+        match app-id="crx_hpfldicfbfomlpcikngkocigghgafkph"
+        open-on-workspace "chat"
+        open-focused false
+    }
