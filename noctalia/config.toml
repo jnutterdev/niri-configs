@@ -4,7 +4,7 @@ ui_scale = 1.20
 [bar.default]
 center = [ "active_window" ]
 concave_edge_corners = true
-end = [ "media", "spacer_1", "tray", "notifications", "network", "battery", "volume", "session", "clock" ]
+end = [ "media", "spacer_1", "tray", "notifications", "network", "battery", "volume", "session", "spacer_1", "spacer_1", "clock" ]
 margin_edge = 0
 margin_ends = 0
 radius_bottom_left = 12
@@ -146,4 +146,4 @@ show_labels = false
 color = "secondary"
 
 [widget.taskbar]
-pinned = [ "vivaldi-hpfldicfbfomlpcikngkocigghgafkph-Default" ]
+pinned = [ "vivaldi-hpfldicfbfomlpcikngkocigghgafkph-Default", "vivaldi-cinhimbnkkaeohfgghhklpknlkffjgod-Default" ]

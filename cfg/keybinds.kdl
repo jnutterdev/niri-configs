@@ -31,6 +31,7 @@ binds {
     Mod+Alt+K                           hotkey-overlay-title="Open Google Keep" { spawn "/opt/vivaldi/vivaldi" "--profile-directory=Default" "--app-id=eilembjdkfgodjkcjnpgpaenohkicgjd"; }
     Mod+Alt+M                           hotkey-overlay-title="Open Messages" { spawn "/opt/vivaldi/vivaldi" "--profile-directory=Default" "--app-id=hpfldicfbfomlpcikngkocigghgafkph"; }
     Mod+Alt+C                           hotkey-overlay-title="Open Google Calendar" { spawn "/opt/vivaldi/vivaldi" "--profile-directory=Default" "--app-id=kjbdgfilnfhdoflbpgamdcdgpehopbep"; }
+    Mod+Alt+Y                           hotkey-overlay-title="Open YouTube Music" { spawn "/opt/vivaldi/vivaldi" "--profile-directory=Default" "--app-id=cinhimbnkkaeohfgghhklpknlkffjgod"; }
 
     // ─── Input ───
     Mod+Shift+T                         hotkey-overlay-title="Toggle Touchpad" { spawn-sh "~/.config/niri/bin/toggle-touchpad"; }
